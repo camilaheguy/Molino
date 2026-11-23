@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talleres - Molino del Galgo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body class="pagina-talleres">
+
+<div class="container">
+
+    <!-- MENU -->
+    <div id="bannercentro">
+        <div class="topnav" id="myTopnav">
+            <a href="centro.html">Centro</a>
+            <a href="equipo.html">Equipo</a>
+            <a href="talleres.html" class="active">Talleres</a>
+            <a href="dormilona.html">Dormilona</a>
+            <a href="juegos.html">Juegos</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- PRESENTACION -->
+    <section class="presentacion-talleres">
+
+        <div class="presentacion-texto">
+            <span class="etiqueta-talleres">APRENDER · CREAR · COMPARTIR</span>
+
+            <h1>Donde las ideas toman forma</h1>
+
+            <p>
+                En el Molino hay un espacio para cada idea, interés y curiosidad.
+                A través de diferentes talleres, invitamos a niños y jóvenes a
+                aprender, experimentar y descubrir nuevas habilidades.
+
+                Son espacios de encuentro donde la creatividad, el compañerismo
+                y el aprendizaje van de la mano.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- TALLERES -->
+    <section class="seccion-talleres">
+
+        <div class="titulo-talleres">
+            <span class="etiqueta-talleres">CINCO FORMAS DE CREAR</span>
+            <h2>Explorá nuestros talleres</h2>
+            <p>Cada espacio es una oportunidad para descubrir algo nuevo.</p>
+        </div>
+
+        <div class="grilla-talleres">
+
+            <article class="tarjeta-taller cocina">
+                <img src="img/cocina.a.jpg" alt="Taller de cocina">
+                <div class="contenido-taller">
+                    <span>01 / CREAR</span>
+                    <h3>Cocina Creativa</h3>
+                    <p>
+                        Experimentamos con sabores, descubrimos recetas y
+                        desarrollamos la creatividad. Aprendemos técnicas,
+                        trabajamos en equipo y compartimos cada preparación.
+                    </p>
+                </div>
+            </article>
+
+            <article class="tarjeta-taller percusion">
+                <img src="img/percusion.a.jpg" alt="Taller de percusión">
+                <div class="contenido-taller">
+                    <span>02 / EXPRESAR</span>
+                    <h3>Percusión</h3>
+                    <p>
+                        Descubrimos el mundo de los ritmos y sonidos a través
+                        de distintos instrumentos. Trabajamos la coordinación,
+                        la escucha y la expresión musical.
+                    </p>
+                </div>
+            </article>
+
+            <article class="tarjeta-taller madera">
+                <img src="img/madera.a.jpg" alt="Taller de madera">
+                <div class="contenido-taller">
+                    <span>03 / CONSTRUIR</span>
+                    <h3>Madera</h3>
+                    <p>
+                        Creamos y construimos con nuestras propias manos.
+                        Exploramos técnicas de trabajo en madera y realizamos
+                        diferentes proyectos y objetos.
+                    </p>
+                </div>
+            </article>
+
+            <article class="tarjeta-taller pintura">
+                <img src="img/pruebam.jpg" alt="Taller de pintura">
+                <div class="contenido-taller">
+                    <span>04 / IMAGINAR</span>
+                    <h3>Pintura</h3>
+                    <p>
+                        Exploramos diferentes materiales y técnicas para
+                        expresarnos. Desde la cerámica y el dibujo hasta
+                        la creación de objetos y propuestas de carnaval.
+                    </p>
+                </div>
+            </article>
+
+            <article class="tarjeta-taller robotica">
+                <img src="img/robotica.a.jpg" alt="Taller de robótica">
+                <div class="contenido-taller">
+                    <span>05 / DESCUBRIR</span>
+                    <h3>Robótica</h3>
+                    <p>
+                        Nos acercamos a la tecnología de forma creativa.
+                        Exploramos la programación, la construcción y la
+                        resolución de problemas mediante experiencias prácticas.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- CIERRE -->
+    <section class="cierre-talleres">
+        <h2>¡Siempre hay algo nuevo por descubrir!</h2>
+        <p>
+            Un lugar para aprender, compartir, experimentar
+            y dejar volar la imaginación.
+        </p>
+    </section>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <img src="img/Logo.molino.png" alt="Logo Molino del Galgo">
+    </div>
+
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
+

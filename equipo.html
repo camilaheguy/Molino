@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Diosas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="bannerequipo">
+            <div class="topnav" id="myTopnav">
+                <a href="centro.html">Centro</a>
+                <a href="equipo.html" class="active">Equipo</a>
+                <a href="talleres.html">Talleres</a>
+                <a href="dormilona.html">Dormilona</a>
+                 <a href="juegos.html">Juegos</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="articulo-equipo-titulo">
+            <h2>Nuestro Equipo</h2>
+            <img src="img/equipo.jpeg" alt="Equipo" class="foto-perfil">
+
+             <p>Detrás del Centro Cultural Molino del Galgo hay un equipo de voluntarios comprometidos con  el bienestar y el desarrollo de cada niño y niña.
+             Personas capacitadas que, desde diferentes roles y talleres, trabajan en conjunto para ofrecer un espacio seguro, de confianza y aprendizaje. A través del acompañamiento pedagógico, la escucha y la atención constante, buscan reconocer las necesidades de cada niño, fomentar su participación y brindarles nuevas experiencias.
+             Cada integrante cumple un papel importante en este camino, aportando tiempo, dedicación y compromiso para que los niños puedan aprender, compartir, descubrir y crecer en un entorno donde se sientan acompañados y valorados.
+             Porque en el Molino no se trata solamente de realizar actividades, sino de construir vínculos, generar oportunidades y hacer que cada niño encuentre su lugar.</p>
+        </div>
+           
+        <div id="footer">
+            <img src="img/Logo.molino.png" alt="Logo Diosas">
+        
+        </div>
+    </div>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+    
+</body>
+
+</html>

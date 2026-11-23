@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro - Molino del Galgo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body class="pagina-centro">
+
+    <div class="container">
+
+        <!-- MENU -->
+        <div id="bannercentro">
+            <div class="topnav" id="myTopnav">
+
+                <a href="centro.html" class="active">Centro</a>
+                <a href="equipo.html">Equipo</a>
+                <a href="talleres.html">Talleres</a>
+                <a href="dormilona.html">Dormilona</a>
+                <a href="juegos.html">Juegos</a>
+                <a href="contacto.html">Contacto</a>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- HISTORIA -->
+        <section class="historia-molino">
+
+            <div class="titulo-historia">
+                <span>UNA HISTORIA QUE SE TRANSFORMA</span>
+
+                <h1>Más que un Molino</h1>
+
+                <p>
+                    De un espacio de producción a un lugar de encuentro.
+                    Un recorrido por los cambios que forman parte de su historia.
+                </p>
+            </div>
+
+            <div class="comparativa-molino">
+
+                <!-- ANTES -->
+                <article class="etapa-molino-antes">
+
+                    <span class="etiqueta-etapa">01 — ANTES</span>
+
+                    <h2>Sus comienzos</h2>
+
+                    <img src="img/molino.antess.jpg"
+                         alt="Molino del Galgo antiguamente">
+
+                    <p>
+                        El Molino del Galgo fue construido en 1832 por José Pratt,
+                        un inmigrante catalán. En sus comienzos funcionaba como
+                        molino de viento y se utilizaba para moler trigo y producir
+                        harina. Con el crecimiento de la ciudad y los cambios en
+                        la actividad industrial, dejó de funcionar y tuvo diferentes
+                        usos a lo largo de los años.
+                    </p>
+
+                </article>
+
+                <!-- ACTUALIDAD -->
+                <article class="etapa-molino-ahora">
+
+                    <span class="etiqueta-etapa">02 — ACTUALIDAD</span>
+
+                    <h2>Un espacio para compartir</h2>
+
+                    <img src="img/molino.ahora.jpeg"
+                         alt="Molino del Galgo actualmente">
+
+                    <p>
+                        Actualmente es un espacio cultural, educativo y deportivo
+                        para el barrio. Allí se realizan talleres de danza,
+                        percusión, cocina y actividades recreativas para niños
+                        y adolescentes. También es un punto de encuentro para
+                        el Carnaval y la participación comunitaria.
+                    </p>
+
+                </article>
+
+            </div>
+
+            <!-- FRASE FINAL -->
+            <div class="frase-historia">
+                <p>
+                    Un lugar que cambió con el tiempo, pero sigue reuniendo historias.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+        <div id="footer">
+            <img src="img/Logo.molino.png" alt="Logo Molino del Galgo">
+        </div>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+</html>

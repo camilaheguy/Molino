@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Molino del Galgo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body class="pagina-contacto">
+   
+    <div class="container">
+
+        <div id="bannercontacto">
+            <div class="topnav" id="myTopnav">
+                <a href="centro.html">Centro</a>
+                <a href="equipo.html">Equipo</a>
+                <a href="talleres.html">Talleres</a>
+                <a href="dormilona.html" class="active">Dormilona</a>
+                <a href="juegos.html">Juegos</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+<!-- DATOS DE CONTACTO -->
+<section class="datos-contacto">
+
+    <!-- TELEFONO -->
+    <div class="contacto-item contacto-telefono">
+
+        <span class="contacto-etiqueta">HABLEMOS</span>
+
+        <img src="img/telefono_molino.png" alt="Ilustración de teléfono">
+
+        <h3>Teléfonos</h3>
+
+        <p class="contacto-descripcion">
+            Estamos para responder tus consultas.
+        </p>
+
+        <div class="lista-telefonos">
+            <a href="tel:+59825079645">2507 9645</a>
+            <a href="tel:+59895315299">095 315 299</a>
+            <a href="tel:+59899737655">099 737 655</a>
+            <a href="tel:+59893918360">093 918 360</a>
+            <a href="tel:+59892749615">092 749 615</a>
+            <a href="tel:+59891633185">091 633 185</a>
+        </div>
+
+        <span class="contacto-pie">¡Nos encanta escucharte!</span>
+
+    </div>
+
+
+    <!-- CORREO -->
+    <div class="contacto-item contacto-correo">
+
+        <span class="contacto-etiqueta">ESCRIBINOS</span>
+
+        <img src="img/correo_molino.png" alt="Ilustración de correo">
+
+        <h3>Correo electrónico</h3>
+
+        <p class="contacto-descripcion">
+            ¿Tenés alguna consulta o propuesta?
+            Mandanos un mensaje.
+        </p>
+
+        <a class="contacto-accion"
+           href="mailto:molinodelgalgo2026@gmail.com">
+            ENVIAR UN CORREO
+        </a>
+
+        <span class="contacto-pie">
+            molinodelgalgo2026@gmail.com
+        </span>
+
+    </div>
+
+
+    <!-- INSTAGRAM -->
+    <div class="contacto-item contacto-instagram">
+
+        <span class="contacto-etiqueta">SEGUINOS</span>
+
+        <img src="img/instagram_molino.png" alt="Ilustración de Instagram">
+
+        <h3>Instagram</h3>
+
+        <p class="contacto-descripcion">
+            Descubrí nuestras actividades,
+            talleres y novedades.
+        </p>
+
+        <a class="contacto-accion"
+           href="https://www.instagram.com/molinodelgalgooficial/"
+           target="_blank" rel="noopener noreferrer">
+            VISITAR INSTAGRAM
+        </a>
+
+        <a class="instagram-secundario"
+           href="https://www.instagram.com/molinodelgalgo18/"
+           target="_blank" rel="noopener noreferrer">
+            @molinodelgalgo18
+        </a>
+
+    </div>
+
+</section>
+
+
+        <!-- FORMULARIO Y MAPA -->
+        <section class="contacto-inferior">
+
+            <div class="articulo-contacto-2">
+
+                <h2>¡Escribinos!</h2>
+
+                <p>Dejanos tu mensaje y ponete en contacto con el Molino.</p>
+
+                <form action="/action_page.php" method="post" class="formulario">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                    <fieldset>
+                        <legend>¿Deseás recibir novedades por mail?</legend>
+
+                        <label>
+                            <input type="radio" name="novedades" value="si">
+                            Sí
+                        </label>
+
+                        <label>
+                            <input type="radio" name="novedades" value="no">
+                            No
+                        </label>
+                    </fieldset>
+
+                    <input type="submit" value="ENVIAR">
+
+                </form>
+
+            </div>
+
+            <div class="mapa">
+
+                <h2>¿Dónde estamos?</h2>
+
+                <p>Encontranos en el Centro Cultural Molino del Galgo.</p>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.3079712038584!2d-56.135997824928324!3d-34.873612071800444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80c3d049e8bf%3A0x9dc78f83946f786f!2sMolino%20del%20galgo!5e0!3m2!1ses!2suy!4v1795149267612!5m2!1ses!2suy"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+        <div id="footer">
+
+            <img src="img/Logo.molino.png" alt="Logo Molino del Galgo">
+
+        </div>
+
+    </div>
+
+    <script>
+
+        function myFunction() {
+
+            var x = document.getElementById("myTopnav");
+
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
